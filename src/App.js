@@ -47,7 +47,7 @@ const App = () => {
       <TransactionForm addTransaction={addTransaction} />
       <input id='play'
         type="text"
-        placeholder="Search transactions..."
+        placeholder="Search transactions by inputing the description of the transaction here then clicking search on your keyboard."
         value={searchTerm}
         onChange={(e) => handleSearch(e.target.value)}
       />
