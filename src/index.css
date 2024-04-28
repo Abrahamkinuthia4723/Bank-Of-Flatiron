@@ -27,4 +27,12 @@ button {
   display: flex;
   flex-direction: row;
   margin-right: auto;
+  margin: 1.2rem 0;
+  display: flex;
+  align-items: stretch;
+  font-family: inherit;
+  border: 1px solid #852929;
+  border-radius: 4px;
+  background: var(--tenne-tawny-dark);
+  border-bottom-right-radius: 10rem;
 }
