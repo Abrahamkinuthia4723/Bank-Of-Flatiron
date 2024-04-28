@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import TransactionTable from './TransactionTable';
 import TransactionForm from './TransactionForm';
 
-const API_URL = '';
+const API_URL = 'https://my-json-server.typicode.com/Abrahamkinuthia4723/bank-of-flatiron/transactions';
 
 const App = () => {
   const [transactions, setTransactions] = useState([]);
@@ -43,9 +43,9 @@ const App = () => {
 
   return (
     <div>
-      <h1>Bank Transactions</h1>
+      <h1>The Royal bank Of Flatiron</h1>
       <TransactionForm addTransaction={addTransaction} />
-      <input
+      <input id='play'
         type="text"
         placeholder="Search transactions..."
         value={searchTerm}

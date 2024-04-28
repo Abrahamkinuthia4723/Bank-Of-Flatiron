@@ -18,23 +18,19 @@ const TransactionTable = ({ transactions, onDelete }) => {
     <table>
       <thead>
         <tr>
-          <th>
-            <button onClick={() => handleSort('description')}>Description</button>
-          </th>
-          <th>
-            <button onClick={() => handleSort('category')}>Category</button>
-          </th>
+          <th>Date</th>
+          <th>Description</th>
+          <th>Category</th>
           <th>Amount</th>
-          <th>Action</th>
         </tr>
       </thead>
       <tbody>
         {transactions.map((transaction) => (
           <tr key={transaction.id}>
+            <td>{transaction.date}</td>
             <td>{transaction.description}</td>
             <td>{transaction.category}</td>
             <td>{transaction.amount}</td>
-            <td>{transaction.date}</td>
           </tr>
         ))}
       </tbody>
