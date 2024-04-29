@@ -2,6 +2,7 @@ h1 {
   color: blue;
   text-align: center;
   font-size: 3rem;
+  border: 1px solid blueviolet;
 }
 table ,th ,td {
   border: 1px solid blue;
@@ -16,6 +17,11 @@ form {
   font-size: xx-large;
   padding-left: 15%;
   padding-bottom: 3%;
+  border: 1px solid brown;
+  border-radius: 8px;
+  padding-top: 3%;
+  display: block;
+
 }
 button {
   font-size: x-large;
