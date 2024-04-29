@@ -35,4 +35,5 @@ button {
   border-radius: 4px;
   background: var(--tenne-tawny-dark);
   border-bottom-right-radius: 10rem;
+  padding-left: 15%;
 }
