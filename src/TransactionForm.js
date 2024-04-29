@@ -68,6 +68,6 @@ const TransactionForm = ({ addTransaction }) => {
       <button type="submit">Add Transaction</button>
     </form>
   );
-};
+}
 
 export default TransactionForm;

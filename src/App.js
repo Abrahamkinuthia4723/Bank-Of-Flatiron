@@ -44,13 +44,13 @@ const App = () => {
   return (
     <div>
       <h1>The Royal bank Of Flatiron</h1>
-      <TransactionForm addTransaction={addTransaction} />
       <input id='play'
         type="text"
         placeholder="Search transactions by inputing the description of the transaction here then clicking search on your keyboard."
         value={searchTerm}
         onChange={(e) => handleSearch(e.target.value)}
       />
+      <TransactionForm addTransaction={addTransaction} />
       <TransactionTable
         transactions={filteredTransactions}
         onSort={sortTransactions}
