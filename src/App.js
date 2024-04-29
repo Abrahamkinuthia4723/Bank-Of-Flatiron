@@ -46,7 +46,7 @@ const App = () => {
       <h1>The Royal bank Of Flatiron</h1>
       <input id='play'
         type="text"
-        placeholder="Search transactions by inputing the description of the transaction here then clicking search on your keyboard."
+        placeholder="Search your recent transactions by inputing the description of the transaction here then clicking search on your keyboard."
         value={searchTerm}
         onChange={(e) => handleSearch(e.target.value)}
       />
