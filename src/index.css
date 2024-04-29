@@ -25,7 +25,7 @@ form {
 }
 button {
   font-size: x-large;
-  color: blue;
+  color: brown;
 }
 #play {
   font-size: x-large;
@@ -37,7 +37,7 @@ button {
   display: flex;
   align-items: stretch;
   font-family: inherit;
-  border: 1px solid #852929;
+  border: 1px solid #a30606;
   border-radius: 4px;
   background: var(--tenne-tawny-dark);
   border-bottom-right-radius: 10rem;
