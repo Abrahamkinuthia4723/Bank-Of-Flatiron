@@ -3,7 +3,7 @@ https://abrahamkinuthia4723.github.io/bank-of-flatiron/
 
 https://github.com/Abrahamkinuthia4723/bank-of-flatiron/assets/162336259/2acc903b-b489-4533-8367-8c3da08333fe
 
-# Geting Started with Create React App
+# Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
